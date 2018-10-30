@@ -1,4 +1,4 @@
-<div class="col-md-10 mx-auto my-5 pb-4 pt-3 border rounded shadow"> <!-- style="box-shadow:0 0 2px #555;"-->
+<div class="col-md-10 mx-auto mt-3 pb-5 pt-3 border rounded shadow"> <!-- style="box-shadow:0 0 2px #555;"-->
     <!-- Apresentação do anúncio -->
     <div class="row justify-content-around col-md-12 py-4">
         <!-- Fotos do produto -->
@@ -62,7 +62,7 @@
     </div>
     <hr>
     <!-- Informações do anúncio -->
-    <div class="col-md-12 m-0 p-0">
+    <div class="col-md-12 p-0">
         <h3 class="row p-title p-1 pl-4 col-md-5"><b>Descrição</b></h3>
         <p class="p-2">Ut quam turpis, porta in facilisis tempus, rhoncus et tortor. Nunc eu venenatis odio. Nunc eleifend porta sem, eget interdum purus dignissim quis. Praesent odio justo, posuere a ex at, pretium accumsan erat. Etiam volutpat, risus eu interdum mollis, orci est consectetur turpis, a convallis ex nulla in neque. Donec viverra vitae arcu ac faucibus. Donec maximus, felis in sodales aliquet, lectus dui suscipit nibh, non malesuada lacus dui at odio. Nullam nibh tortor, tristique at molestie eu, varius in orci. In ac leo vitae arcu pharetra consectetur ac ac arcu. Pellentesque fermentum tellus ut lacus vestibulum finibus. Ut ante velit, faucibus quis arcu sed, iaculis congue metus. Nunc imperdiet augue sed orci tincidunt, et fringilla arcu efficitur. Etiam lacinia consequat diam eu porta. Maecenas sed lacus hendrerit neque dictum blandit. Duis magna eros, tempus at massa pulvinar, consequat feugiat massa. Vestibulum et leo sit amet quam semper ultrices.</p>
         <hr>

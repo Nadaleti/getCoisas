@@ -1,6 +1,16 @@
+html {
+    height: 100% !important;
+}
+
+body {
+    min-height: 100% !important;
+    position: relative;
+}
+
 footer {
     box-shadow: 0px -2px 10px #999;
-    margin-top: 10px;
+    position: absolute;
+    bottom: 0px;
 }
 
 header {
@@ -112,4 +122,8 @@ header {
 
 #indic-1 {
     background-image: url("<?= base_url("img/carrinho-mao.jpg") ?>");
+}
+
+.dashboard-link:hover {
+    text-decoration: none;
 }
