@@ -1,4 +1,4 @@
-<div class="row col-md-12 px-5">
+<div class="row col-md-10 mx-auto px-5">
     <!-- Filtros de pesquisa -->
     <div class="col-md-3 p-3 mx-auto">
         <div class="col-md-12 p-3 mx-auto filter-box">

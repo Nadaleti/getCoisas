@@ -39,8 +39,8 @@
                     <button class="btn btn-outline-primary">Pesquisar</button>
                 </div>
             </div>
-            <div class="row justify-content-around col-md-3">
+            <div class="row justify-content-end col-md-3">
                 <button class="btn btn-primary">Seja um anunciante!</button>
-                <button class="btn btn-primary">Login</button>
+                <button class="btn btn-primary ml-4">Entrar | Cadastrar</button>
             </div>
         </header>

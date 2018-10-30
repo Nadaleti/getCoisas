@@ -59,7 +59,7 @@
         </div>
         <div><button class="btn btn-primary">Ver mais</button></div>
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-around col-md-12">
         <a href="#" class="card card-home clickable ml-3">
             <div class="card-img-container">
                 <img src="<?= base_url("img/manta2.jpg") ?>" style="width:14.9em;">
@@ -127,7 +127,7 @@
         <div><button class="btn btn-primary">Ver mais</button></div>
     </div>
     
-    <div class="row justify-content-center">
+    <div class="row justify-content-around col-md-12">
         <a href="#" class="card card-home clickable ml-3">
             <div class="card-img-container">
                 <img src="<?= base_url("img/damas.jpg") ?>" style="width:14.9em;">
