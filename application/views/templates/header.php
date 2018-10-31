@@ -27,7 +27,7 @@
                 <img src="<?= base_url("img/logo-hor.jpg") ?>" class="img-fluid" id="logo">
             </div>
 
-            <div class="input-group justify-content-center col-md-6">
+            <div class="input-group justify-content-center col-md-5">
                 <input type="text" placeholder="O que você está procurando?" class="form-control col-md-9">
                 <select class="input-group-append col-md-3 custom-select text-center btn">
                     <option selected>Categorias</option>
@@ -39,8 +39,11 @@
                     <button class="btn btn-outline-primary">Pesquisar</button>
                 </div>
             </div>
-            <div class="row justify-content-end col-md-3">
-                <button class="btn btn-primary">Seja um anunciante!</button>
-                <button class="btn btn-primary ml-4">Entrar | Cadastrar</button>
+            <div class="row justify-content-end col-md-4">
+                <a href="#" class="btn btn-outline-primary">Seja um anunciante!</a>
+                <a href="#" class="row ml-2 btn btn-primary">
+                    <i class="fa fa-user mr-1" style="font-size:20px;"></i>
+                    <span>Entre ou cadastre-se</span>
+                </a>
             </div>
         </header>

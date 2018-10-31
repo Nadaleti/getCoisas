@@ -13,7 +13,7 @@
     <div class="card-deck mb-3 text-center">
         <div class="card mb-4 shadow-sm">
             <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Free</h4>
+                <h4 class="my-0 font-weight-normal">Basic</h4>
             </div>
             <div class="card-body">
                 <h1 class="card-title pricing-card-title">R$x <small class="text-muted">/ mês</small></h1>
@@ -24,7 +24,7 @@
                     <li><i class="fa fa-times mr-1" style="color: #ff0000; font-size: 18px;"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                     <li><i class="fa fa-times mr-1" style="color: #ff0000; font-size: 18px;"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                 </ul>
-                <button type="button" class="btn btn-lg btn-block btn-outline-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</button>
+                <button type="button" class="btn btn-lg btn-block btn-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</button>
             </div>
         </div>
         <div class="card mb-4 shadow-sm">

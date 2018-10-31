@@ -5,12 +5,12 @@
         <h3>Dados pessoais</h3>
         
         <div class="form-group">
-            <lable class="text-muted">e-mail</lable>
+            <lable class="">e-mail</lable>
             <input class="form-control" type="email" placeholder="get.coisas@aluguel.com" required>
         </div>
 
         <div class="form-group">
-            <label class="text-muted">Senha</label>
+            <label class="">Senha</label>
             <div class="input-group">
                 <input class="form-control col-md-7" type="password" id="senha" required>
                 <div class="input-group-append">
@@ -20,27 +20,27 @@
         </div>
 
         <div class="form-group">
-            <label class="text-muted">Nome</label>
+            <label class="">Nome</label>
             <input class="form-control" type="text" maxlength="32" placeholder="ex. José da Silva" required>
         </div>
 
         <div class="form-group">
-            <label class="text-muted">Data de nascimento</label>
+            <label class="">Data de nascimento</label>
             <input class="form-control col-md-5" type="text" maxlength="10" placeholder="ex. 01/01/2001" required>
         </div>
 
         <div class="form-group">
-            <label class="text-muted">CPF</label>
+            <label class="">CPF</label>
             <input class="form-control col-md-7" type="text" maxlength="14" placeholder="ex. 123.456.789-10" required>
         </div>
 
         <div class="form-group">
-            <label class="text-muted">Telefone</label>
+            <label class="">Telefone</label>
             <input class="form-control col-md-7" type="text" placeholder="ex. (99) 99999-9999" required>
         </div>
 
         <div class="form-group">
-            <label class="text-muted">Telefone (opcional)</label>
+            <label class="">Telefone (opcional)</label>
             <input class="form-control col-md-7" type="text" placeholder="ex. (99) 99999-9999">
         </div>
         
@@ -48,39 +48,39 @@
         <h3>Endereço</h3>
         
         <div class="form-group">
-            <label class="text-muted">CEP</label>
+            <label class="">CEP</label>
             <input class="form-control" type="text" placeholder="ex. 13300-000" required>
         </div>
         
         <div class="form-group form-row">
             <div class="col-md-9">
-                <label class="text-muted">Endereço</label>
+                <label class="">Endereço</label>
                 <input class="form-control" type="text" placeholder="ex. Rua Moisés de Oliveira" required>
             </div>
             <div class="col-md-3">
-                <label class="text-muted">Número</label>
+                <label class="">Número</label>
                 <input class="form-control" type="text" placeholder="ex. 1030" required>
             </div>
         </div>
         
         <div class="form-group form-row">
             <div class="col-md-7">
-                <label class="text-muted">Bairro</label>
+                <label class="">Bairro</label>
                 <input class="form-control" type="text" placeholder="ex. Jardim das Aves" required>
             </div>
             <div class="col-md-5">
-                <label class="text-muted">Complemento</label>
+                <label class="">Complemento</label>
                 <input class="form-control" type="text" placeholder="ex. Apto 77" required>
             </div>
         </div>
         
         <div class="form-group form-row">
             <div class="col-md-6">
-                <label class="text-muted">Cidade</label>
+                <label class="">Cidade</label>
                 <input class="form-control" type="text" placeholder="ex. Sorocaba" required>
             </div>
             <div class="col-md-6">
-                <label class="text-muted">Estado</label>
+                <label class="">Estado</label>
                 <input class="form-control" type="text" placeholder="ex. São Paulo" required>
             </div>
         </div>

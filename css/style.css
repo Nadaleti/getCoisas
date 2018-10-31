@@ -120,10 +120,19 @@ header {
     background-color: #eee;
 }
 
-#indic-1 {
-    background-image: url("<?= base_url("img/carrinho-mao.jpg") ?>");
-}
-
 .dashboard-link:hover {
     text-decoration: none;
+}
+
+.table-icon {
+    font-size: 20px;
+    color: #333;
+}
+
+.renedit:hover {
+    color: #007bff;
+}
+
+.delete:hover {
+    color: red;
 }
