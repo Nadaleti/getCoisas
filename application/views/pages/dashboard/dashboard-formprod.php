@@ -39,7 +39,7 @@
             <div class="col-md-11 mx-auto">
                 <form class="col-md-12 mx-auto text-left" action="" method="">
                     <hr>
-
+                    
                     <div class="form-group">
                         <label class="">Título do Anúncio</label>
                         <input class="form-control" type="text" placeholder="Jogo de tabuleiro &#34;Banco Imobiliário&#34;" maxlength="128" aria-describedby="help_title" required>
@@ -59,36 +59,64 @@
                                 <option value="outros">Outros</option>
                             </select>
                         </div>
-                        
-                        <!-- Tags -->
-                        <div class="col-md-8">
-                            <label class="">Subcategorias</label>
-                            <div class="border rounded p-1">
-                                <div class="input-group input-group-sm">
-                                    <input class="form-control col-md-3" type="text">
-                                </div>
-                            </div>
-                            <div class="dropdown-menu" aria-labelledby="drop-tags">
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="form-group form-row">
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <label class="">Quantidade</label>
                             <input class="form-control" type="number" placeholder="3" min="1">
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <label class="">Preço (por dia)</label>
                             <input class="form-control" type="text" placeholder="R$ 1,00" required>
                         </div>
+                    </div>
+                    
+                    <div class="form-group form-row">
+                        
+                        <!-- Tags -->
+                        <label class="">Subcategorias</label>
+                        <div class="card col-md-12">
+                            <div class="card-header">
+                                <div id="selected"></div>
+                            </div>
+                            <div class="card-body" id="options">
+                                <button class="btn badge badge-primary" id="bf">Black Friday</button>
+                                <button class="btn badge badge-primary" id="carn" draggable="true">Carnaval</button>
+                                <button class="btn badge badge-primary" id="esp">Esportes</button>
+                                <button class="btn badge badge-primary" id="casa">Casa</button>
+                                <button class="btn badge badge-primary" id="fj">Festa Junina</button>
+                                <button class="btn badge badge-primary" id="mod">Moda</button>
+                                <button class="btn badge badge-primary" id="jog">Jogos</button>
+                                <button class="btn badge badge-primary" id="fest">Festas</button>
+                                <button class="btn badge badge-primary" id="urb">Urbano</button>
+                                <button class="btn badge badge-primary" id="praia">Praia</button>
+                                <button class="btn badge badge-primary" id="bb">Baby</button>
+                                <button class="btn badge badge-primary" id="est">Estudante</button>
+                                <button class="btn badge badge-primary" id="cas">Casamento</button>
+                                <button class="btn badge badge-primary" id="cult">Cultura</button>
+                                <button class="btn badge badge-primary" id="coz">Cozinha</button>
+                                <button class="btn badge badge-primary" id="anim">Animais</button>
+                                <button class="btn badge badge-primary" id="mus">Música</button>
+                                <button class="btn badge badge-primary" id="tran">Transporte</button>
+                                <button class="btn badge badge-primary" id="inv">Inverno</button>
+                                <button class="btn badge badge-primary" id="fda">Fim de ano</button>
+                                <button class="btn badge badge-primary" id="nat">Natal</button>
+                                <button class="btn badge badge-primary" id="mae">Mãe</button>
+                                <button class="btn badge badge-primary" id="pai">Pai</button>
+                                <button class="btn badge badge-primary" id="hal">Haloween</button>
+                                <button class="btn badge badge-primary" id="cri">Criança</button>
+                                <button class="btn badge badge-primary" id="ver">Verão</button>
+                            </div>
+                        </div>
+                        <small class="form-text text-muted">Selecione três subcategorias que são relacionadas ao seu produto</small>
                     </div>
 
                     <div class="form-group">
                         <label class="">Descrição</label>
                         <textarea class="form-control" rows="3" maxlength="500" placeholder="Escreva aqui os detalhes e informações que acha relevante sobre o produto" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="">Imagens</label>
+                        <input class="form-control-file" name="photos[]" id="photos" value="Carregar" type="file" multiple="" />
                     </div>
                     
                     <div class="row justify-content-end col-md-12 my-4">
@@ -124,11 +152,25 @@
 </div>
 
 <script>
-    $("#tags").keydown(function(event){
-        if (event.which == 13) {
-            event.preventDefault();
-            var val = $(this).val();
-            $("#tag-list").append("<div class=""></div>");
-        }        
-    });
+    $('.card-body').on('click', '.badge', (function (ev) {
+        ev.preventDefault();
+        var id = $(this).attr('id');
+        
+        if ($("#selected > .badge").length < 3) {
+            var text = $(this).text();
+            $(this).remove();
+            $("#selected").append('<button class="btn badge badge-primary mr-2" id="' + id + '">' + text + '</button>');
+        } else {
+            alert("É possível selecionar apenas três subcategorias");
+        }
+    }));
+    
+    $('#selected').on('click', '.badge', (function (ev) {
+        ev.preventDefault();
+        var id = $(this).attr('id');
+        
+        var text = $(this).text();
+        $(this).remove();
+        $(".card-body").append('<button class="btn badge badge-primary mr-2" id="' + id + '">' + text + '</button>');
+    }));
 </script>
