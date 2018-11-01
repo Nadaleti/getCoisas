@@ -1,23 +1,23 @@
 <div class="container-fluid">
     <!-- Menu lateral -->
     <div class="row">   
-        <ul class="nav nav-pilss col-md-2 d-md-block border-right flex-column">
+        <ul class="nav nav-pilss col-md-2 d-md-block border-right flex-column py-4">
             <li class="nav-item border-bottom">
-                <a href="#" class="nav-link active" style="font-size:20px;">
+                <a href="#" class="nav-link active" style="font-size:15px;">
                     <i class="fas fa-home"></i>
                     <span>Resumo</span>
                 </a>
             </li>
             
             <li class="nav-item border-bottom bg-primary">
-                <a class="nav-link" href="#" style="font-size:20px; color:white;">
+                <a class="nav-link" href="#" style="font-size:15px; color:white;">
                     <i class="fas fa-handshake"></i>
                     <span>Anúncios</span>
                 </a>
             </li>
             
             <li class="nav-item border-bottom">
-                <a class="nav-link" data-toggle="collapse" href="#user-collapse" role="button" aria-expanded="false" aria-controls="user-collapse" style="font-size:20px;">
+                <a class="nav-link" data-toggle="collapse" href="#user-collapse" role="button" aria-expanded="false" aria-controls="user-collapse" style="font-size:15px;">
                     <i class="fa fa-user-cog"></i>
                     <span>Meus Dados</span>
                 </a>
@@ -32,7 +32,7 @@
         </ul>
         
         <!-- Conteúdo da página -->
-        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 mt-2">
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 mt-3">
             <div class="col-md-12 row justify-content-between">
                 <div class="col-md-5"><h3>Novo Anúncio</h3></div>
             </div>

@@ -2,23 +2,23 @@
     
     <!-- Menu lateral -->
     <div class="row">
-        <ul class="nav nav-pilss col-md-2 d-md-block border-right flex-column">
+        <ul class="nav nav-pilss col-md-2 d-md-block border-right flex-column py-4">
             <li class="nav-item border-bottom">
-                <a href="#" class="nav-link active" style="font-size:20px;">
+                <a href="#" class="nav-link active" style="font-size:15px;">
                     <i class="fas fa-home"></i>
                     <span>Resumo</span>
                 </a>
             </li>
             
             <li class="nav-item border-bottom">
-                <a class="nav-link" href="#" style="font-size:20px">
+                <a class="nav-link" href="#" style="font-size:15px">
                     <i class="fas fa-handshake"></i>
                     <span>Anúncios</span>
                 </a>
             </li>
             
             <li class="nav-item bg-primary border-bottom">
-                <a class="nav-link" href="#" style="font-size:20px; color:white;">
+                <a class="nav-link" href="#" style="font-size:15px; color:white;">
                     <i class="fa fa-user-cog"></i>
                     <span>Meus Dados</span>
                 </a>
@@ -26,7 +26,7 @@
         </ul>
 
         <!-- Conteúdo da página - Acordeão composto de 3 opções -->
-        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 mt-2 accordion" id="options">
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 mt-3 accordion" id="options">
             
             <!-- Primeira opção - Edição de dados cadastrais -->
             <div class="card col-md-12">
